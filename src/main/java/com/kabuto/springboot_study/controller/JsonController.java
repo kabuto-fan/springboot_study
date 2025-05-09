@@ -21,9 +21,14 @@ public class JsonController {
     public Map<String,Object> getUserMap(){
         Map<String, Object> userMap = new HashMap<>(3);
         User user = new User(1, "kabuto", "123");
-        userMap.put("英雄信息",user);
+        User user2 = new User(2, "faiz", null);
+
+
+//        userMap.put("英雄信息",user);
+        userMap.put("英雄信息",user2);
         userMap.put("战力","SSS");
-        userMap.put("挚友","FAIZ");
+//        userMap.put("挚友","FAIZ");
+        userMap.put("挚友",null);
 
         return userMap;
     }
