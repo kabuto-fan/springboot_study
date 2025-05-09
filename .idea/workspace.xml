@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b853b5-6c47-4dca-b420-136423079ce3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kabuto/springboot_study/common/JsonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kabuto/springboot_study/config/fastJsonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kabuto/springboot_study/controller/JsonResultController.java" afterDir="false" />
+    <list default="true" id="57b853b5-6c47-4dca-b420-136423079ce3" name="Changes" comment="add: 使用fastJson 实现null转为空字符&#10;封装统一返回的数据结构,加入了状态码和提示信息，使得返回的 json 数据信息更加完整">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kabuto/springboot_study/controller/LogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -44,6 +42,12 @@
   }
 }</component>
   <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="kabuto-fan" />
+        <option name="repository" value="springboot_study" />
+      </RepoCoordinatesHolder>
+    </option>
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="b7cc5050-add3-4146-b2a5-0020fe2ff0b1" />
@@ -160,6 +164,7 @@
       <workItem from="1746756334135" duration="753000" />
       <workItem from="1746757099487" duration="11700000" />
       <workItem from="1746777547942" duration="222000" />
+      <workItem from="1746777779215" duration="5960000" />
     </task>
     <task id="LOCAL-00001" summary="Spring Boot返回Json数据及数据封装">
       <option name="closed" value="true" />
@@ -185,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746762717702</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add: 使用fastJson 实现null转为空字符&#10;封装统一返回的数据结构,加入了状态码和提示信息，使得返回的 json 数据信息更加完整">
+      <option name="closed" value="true" />
+      <created>1746778002836</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746778002836</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +225,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Spring Boot返回Json数据及数据封装" />
     <MESSAGE value="add: 添加jackson配置类 实现null转为空字符串" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: 添加jackson配置类 实现null转为空字符串" />
+    <MESSAGE value="add: 使用fastJson 实现null转为空字符&#10;封装统一返回的数据结构,加入了状态码和提示信息，使得返回的 json 数据信息更加完整" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: 使用fastJson 实现null转为空字符&#10;封装统一返回的数据结构,加入了状态码和提示信息，使得返回的 json 数据信息更加完整" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
